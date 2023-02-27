@@ -28,5 +28,12 @@ h2 {
 .p2 {
   margin-top: 140px;
 }
-.img { margin: auto;
+.img {
+  margin: auto;
+}
+.copywrite {
+  background-color: rgb(165, 255, 245);
+  text-align: center;
+  margin-top: auto;
+  
 }
