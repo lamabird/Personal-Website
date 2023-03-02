@@ -21,16 +21,53 @@ h1 {
 h2 {
   color: #0003a4;
 }
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.course_item {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.para {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.class_year {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.para {
+  display: flex;
+}
+.content {
+  width: 300px;
+}
 @media (max-width: 600px) {
-  .course_1 {
-    display: grid;
+  .link {
+    margin-bottom: 0%;
   }
-  .course_2 {
-    display: grid;
+  .course_item {
+    border-bottom: 1px solid rgb(79, 79, 165);
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
   }
-  .course_3 {
-    display: grid;
+
+  .class_year {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .banner {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_button {padding-bottom: 10px;
   }
 }
