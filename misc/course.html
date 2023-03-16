@@ -3,9 +3,7 @@
 <head>
     <title>Course</title>
     <link href="../css/course.css" rel="stylesheet" type="text/css"/>
-
 </head>
-
 <body>
 <header class="banner">
     <h1>Course Page</h1>
@@ -15,6 +13,11 @@
     </nav>
 </header>
 <main>
+    <form>
+        <label>Enter course number:</label>
+        <input type="text" id="input_box" name="input_box">
+        <button type="button" onclick="course_number()">Submit</button>
+    </form>
     <ul class="course_item">
         <div class="content">
             <a class="link" href="https://www.bcit.ca/outlines/20231089207/">
@@ -55,7 +58,7 @@
     <p>copywrite data</p>
 </footer>
 </div>
-<script src="../script/script.js" >
+<script src="../script/script.js">
 </script>
 </body>
 </html>
